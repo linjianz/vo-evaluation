@@ -1,5 +1,5 @@
-
-## Generate eval_train.exe and eval_test.ext
+# VO-Evaluation
+## Generate eval_train.exe and eval_test.exe
 ```
 $ cd cpp
 ```
@@ -16,7 +16,7 @@ uncomment line 427 in evaluate_odometry.cpp, then compile it via
 g++ -O3 -DNDEBUG -o eval_test evaluate_odometry.cpp matrix.cpp
 ```
 
-## Evaluate
+## Evaluation
 ```
 $ mkdir ../test_1
 $ mkdir ../test_1/prediction
